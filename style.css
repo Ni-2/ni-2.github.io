@@ -1,0 +1,59 @@
+body {
+  font-family: Georgia;
+  font-size: 16px;
+  margin: 0 auto;   /* center content */
+  max-width: 800px; /* limit width */
+  line-height: 1.5;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+/* У всех абзацев отступ снизу 12 пикселей. */
+p {
+	margin-bottom: 12;
+}
+
+/* Заголовков первых трёх уровней: вес шрифта 400 */
+h1, h2, h3 {
+	font-weight: 400;
+}
+
+/* У заголовка первого уровня:
+размер шрифта 36 пикселей;
+отступ снизу 0. */
+h1 {
+	font-size: 36px;
+	margin-bottom: 0;
+}
+
+/* У заголовка второго уровня:
+размер шрифта 32 пикселя;
+граница снизу толщиной 1 пиксель серого цвета;
+отступ снизу 8 пикселей. */
+h2 {
+	font-size: 32px;
+	border-bottom: 1px solid grey;
+	margin-bottom: 8px;
+}
+
+h3 {
+	border: none;
+	font-size: 24px;
+	margin: 3px;
+
+}
+/* У #header:
+отступ снизу 32 пикселя
+выравнивание текста по центру */
+#header {
+	margin-bottom: 32px;
+	text-align: center;
+}
+
+/* У #footer:
+отступ сверху 64 пикселя
+выравнивание текста по центру */
+#footer {
+	margin-top: 64px;
+	text-align: center;
+}
